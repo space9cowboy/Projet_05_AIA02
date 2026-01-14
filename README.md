@@ -13,7 +13,7 @@ Machine learning : Développement de modèles
 - `notebooks` : explorations rapides.
 - `config/config.yml` : chemins, seed et hyperparamètres par défaut.
 
-## Démarrage env (suggestion)
+## Démarrage env 
 ```
 python -m venv .venv
 source .venv/bin/activate
@@ -28,6 +28,15 @@ Ce projet vise à concevoir et comparer plusieurs stratégies de recommandation 
 
 ## Données utilisées
 - Dataset Amazon Reviews 2023 (sous-ensemble multi-catégories)
+
+    "Automotive",
+    "Books",
+    "CDs_and_Vinyl",
+    "Cell_Phones_and_Accessories",
+    "Clothing_Shoes_and_Jewelry",
+    "Digital_Music",
+    "Electronics"
+    
 - `amazon_reviews_cleaned.csv` : données nettoyées au niveau interaction
 - `amazon_reviews_model.csv` : données encodées pour les modèles collaboratifs
 - `user_behavior_features.csv` : features comportementales agrégées par utilisateur
