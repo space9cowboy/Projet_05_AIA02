@@ -1,0 +1,31 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environnements
+.venv/
+env/
+venv/
+
+# Modèles / checkpoints ML
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.pkl
+
+# OS
+.DS_Store
+
+# Données (si nécessaire)
+data/raw/
+
+# Notebooks exportés
+*.html
+
+# Logs
+logs/
+*.log
